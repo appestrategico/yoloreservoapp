@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="ThemeStarz">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600">
+    <link rel="stylesheet" href="{{asset('estiloshome/assets/bootstrap/css/fuentes.css')}}">
     <link rel="stylesheet" href="{{asset('estiloshome/assets/bootstrap/css/bootstrap.min.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('estiloshome/assets/font-awesome/css/fontawesome-all.min.css')}}">
     <link rel="stylesheet" href="{{asset('estiloshome/assets/css/style.css')}}">
@@ -139,32 +139,7 @@
             </section>
             <!--END HOW IT WORKS ************************************************************************************-->
 
-            <!--PARTNERS ********************************************************************************************-->
-            <section id="partners" class="py-5 ts-block" data-bg-color="#f6f6f6">
-                <!--container-->
-                <div class="container">
-                    <!--block of logos-->
-                    <div class="d-block d-md-flex justify-content-between align-items-center text-center ts-partners ">
-                        <a href="#">
-                            <img src="{{asset('estiloshome/assets/img/logo-01.png')}}" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="{{asset('estiloshome/assets/img/logo-02.png')}}" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="{{asset('estiloshome/assets/img/logo-03.png')}}" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="{{asset('estiloshome/assets/img/logo-04.png')}}" alt="">
-                        </a>
-                        <a href="#">
-                            <img src="{{asset('estiloshome/assets/img/logo-05.png')}}" alt="">
-                        </a>
-                    </div>
-                    <!--end logos-->
-                </div>
-                <!--end container-->
-            </section>
+
             <!--END PARTNERS ****************************************************************************************-->
 
             <!--HOW IT LOOKS ****************************************************************************************-->
@@ -548,37 +523,31 @@
                         <div class="col-md-4">
                             <figure class="text-right ts-xs-text-center" data-animate="ts-fadeInUp">
                                 <figure class="icon">
-                                    <img src="assets/img/icon-watch-heart.png" class="" alt="">
+                                    <img src="{{asset('estiloshome/assets/img/ganancias.png')}}" with="20px" class="" alt="">
                                 </figure>
-                                <h4 class="mb-2">Invest With The Best</h4>
-                                <p>
-                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                </p>
+                                <h4 class="mb-2">Ganancias</h4>
+                                <p>Generas ingresos con una misma tarifa y sin pagar comision</p>
                             </figure>
                             <figure class="text-right ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".1s">
                                 <figure class="icon">
-                                    <img src="assets/img/icon-lcd-chart.png" class="" alt="">
+                                    <img src="{{asset('estiloshome/assets/img/gestion.png')}}" with="20px" class="" alt="">
                                 </figure>
-                                <h4 class="mb-2">Real Time Price</h4>
-                                <p>
-                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                </p>
+                                <h4 class="mb-2">Gestion</h4>
+                                <p>Podras gestionar tus citas y servicios</p>
                             </figure>
                             <figure class="text-right ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".3s">
                                 <figure class="icon">
-                                    <img src="assets/img/icon-cup-winner.png" class="" alt="">
+                                    <img src="{{asset('estiloshome/assets/img/users.png')}}" with="20px" class="" alt="">
                                 </figure>
-                                <h4 class="mb-2">Trade From Enywhere</h4>
-                                <p>
-                                    Morbi et nisl a sapien malesuada scelerisque. Suspendisse tempor turpis mattis
-                                </p>
+                                <h4 class="mb-2">Multi Servicios</h4>
+                                <p>Podras encontrar servicios y empresas para reservar.</p>
                             </figure>
                         </div>
                         <!--end col-md-4-->
 
                         <div class="col-md-4 my-5 d-flex justify-content-center align-items-center">
                             <div class="image position-relative">
-                                <img src="assets/img/img-phone-1st-screen.png" class="mw-100" alt="" data-animate="ts-zoomInShort" data-delay=".1s">
+                                <img src="{{asset('estiloshome/assets/img/img-phone-1st-screen.png')}}" class="mw-100" alt="" data-animate="ts-zoomInShort" data-delay=".1s">
                                 <aside class="ts-svg ts-svg__organic-shape-01 ts-background-size-contain" data-animate="ts-zoomInShort" data-delay=".4s"></aside>
                             </div>
                         </div>
@@ -587,7 +556,7 @@
                         <div class="col-md-4">
                             <figure class="ts-xs-text-center" data-animate="ts-fadeInUp">
                                 <figure class="icon">
-                                    <img src="assets/img/icon-watch-heart.png" class="" alt="">
+                                    <img src="{{asset('estiloshome/assets/img/icon-watch-heart.png')}}" class="" alt="">
                                 </figure>
                                 <h4 class="mb-2">Invest With The Best</h4>
                                 <p>
@@ -596,7 +565,7 @@
                             </figure>
                             <figure class="ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".1s">
                                 <figure class="icon">
-                                    <img src="assets/img/icon-lcd-chart.png" class="" alt="">
+                                    <img src="{{asset('estiloshome/assets/img/icon-lcd-chart.png')}}" class="" alt="">
                                 </figure>
                                 <h4 class="mb-2">Real Time Price</h4>
                                 <p>
@@ -605,7 +574,7 @@
                             </figure>
                             <figure class="ts-xs-text-center" data-animate="ts-fadeInUp" data-delay=".3s">
                                 <figure class="icon">
-                                    <img src="assets/img/icon-cup-winner.png" class="" alt="">
+                                    <img src="{{asset('estiloshome/assets/img/icon-cup-winner.png')}}" class="" alt="">
                                 </figure>
                                 <h4 class="mb-2">Trade From Enywhere</h4>
                                 <p>
@@ -915,14 +884,13 @@
 	<script src="{{asset('estiloshome/assets/js/popper.min.js')}}"></script>
 	<script src="{{asset('estiloshome/assets/bootstrap/js/bootstrap.min.js')}}"></script>
     <script src="{{asset('estiloshome/assets/js/imagesloaded.pkgd.min.js')}}"></script>
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58"></script>
 	<script src="{{asset('estiloshome/assets/js/isInViewport.jquery.js')}}"></script>
 	<script src="{{asset('estiloshome/assets/js/jquery.particleground.min.js')}}"></script>
 	<script src="{{asset('estiloshome/assets/js/owl.carousel.min.js')}}"></script>
 	<script src="{{asset('estiloshome/assets/js/scrolla.jquery.min.js')}}"></script>
 	<script src="{{asset('estiloshome/assets/js/jquery.validate.min.js')}}"></script>
 	<script src="{{asset('estiloshome/assets/js/jquery-validate.bootstrap-tooltip.min.js')}}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+    <script src="{{asset('estiloshome/assets/js/TweenMax.min.js')}}"></script>
     <script src="{{asset('estiloshome/assets/js/jquery.wavify.js')}}"></script>
     <script src="{{asset('estiloshome/assets/js/custom.js')}}"></script>
 
