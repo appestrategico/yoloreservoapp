@@ -1,94 +1,9 @@
-/*----------------------------------------------------------------------------------------------------------------------
-Project:	    AppStorm
-Version:        1.0.0
 
-Default Color   #f26d7d;
-
-Body copy:		'Poppins', sans-serif; 15px;
-Headers:		'Poppins', sans-serif;
-
-----------------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------------
-[Table of contents]
-
-A. Basic Styling
-  -- Styling
-
-B. Helpers
-  -- Animations
-  -- Borders
-  -- Colors
-  -- Column Count
-  -- Transitions
-  -- Background
-  -- Headings
-  -- Height
-  -- Margin
-  -- No Gutter
-  -- Opacity
-  -- Overflow
-  -- Padding
-  -- Position
-  -- Shadow
-  -- Shape Mask
-  -- Typography
-  -- Title
-  -- Transitions
-  -- Utilities
-  -- Width
-  -- Z-Index
-
-C. Components
-  -- Block
-  -- Blockquote
-  -- Box
-  -- Buttons
-  -- Card
-  -- Circle
-  -- Forms
-  -- Hr
-  -- Inputs
-  -- Item
-  -- List
-  -- Map
-  -- Hero
-  -- Navbar
-  -- Page
-  -- Partners
-  -- Plugins
-  -- Price Box
-  -- Progress
-  -- Promo Numbers
-  -- Select
-  -- Slider
-  -- Tabs
-
-D. Plugins Styles
-  -- Magnific Popup
-  -- Owl Carousel
-
-E. Template Specific Elements
-  -- Hero Form
-  -- Carousel Centered
-  -- Price Box
-  -- SVG Shapes
-  -- Other
-
-
-----------------------------------------------------------------------------------------------------------------------*/
-
-/***********************************************************************************************************************
-A. Basic Styling
-***********************************************************************************************************************/
-
-/*-------------------------------------------
-  -- Styling - Colors, Font Size, Font Family
--------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
 
 body {
     color: #191919;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Pridi', serif;
     font-weight: 400;
     font-size: .9375rem;
     margin: 0;
@@ -318,6 +233,8 @@ B. Helpers
     position: absolute;
     width: 100%;
     z-index: -2;
+    background: #662d91 !important;
+    border-bottom: 4px solid #510fa1 !important;
 }
 
 .ts-background .ts-background {
@@ -1543,6 +1460,7 @@ iframe div {
 
 .ts-promo-numbers h3 {
     font-weight: normal;
+    color: #fff;
 }
 
 .ts-promo-number {
@@ -1552,7 +1470,7 @@ iframe div {
 .ts-promo-number .ts-promo-number-divider:after {
     content: "";
     bottom: 0;
-    border: .125rem solid #f26d7d;
+    border: .125rem solid #fff;
     border-radius: 50%;
     height: .625rem;
     margin: auto;
@@ -2234,6 +2152,7 @@ figure.icon {
 
     .ts-promo-numbers h2 {
         font-size: 3rem;
+        color: #fff;
     }
 
     .ts-carousel-centered .owl-nav .owl-next {
@@ -2354,4 +2273,8 @@ figure.icon {
     .ts-carousel-centered .owl-nav .owl-prev {
         left: 2.5rem;
     }
+}
+
+.menub{
+background: #662d91 !important;border-bottom: 4px solid #510fa1 !important;
 }
