@@ -1,16 +1,20 @@
-@extends('layouts.body')
+@extends('layouts.bodylogin')
 
 @section('body')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
 
-                <div class="card-body">
+<div class="wrapper-page">
+<div class="card">
+<div class="card-body">
+                    <h3 class="text-center mt-0">
+                        <a href="index.html" class="logo logo-admin"><img src="{{asset('assets/images/logo.png')}}" height="100" alt="Yo lo reservo"></a>
+                    </h3>
+
+                    <h6 class="text-center">{{ __('Register') }}</h6>
+
+                    <div class="p-3">
+                        
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
-
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
@@ -25,7 +29,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                            <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
                             <div class="col-md-6">
@@ -61,6 +65,14 @@
                             </div>
                         </div>
 
+                            <div class="form-group row">
+                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                            </div>
+                        </div>
+
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
@@ -68,10 +80,23 @@
                                 </button>
                             </div>
                         </div>
-                    </form>
+
+                            <div class="form-group m-t-10 mb-0 row">
+
+
+                                <div class="col-sm-7 m-t-20">
+                               
+    @if (Route::has('password.request')) <a class="btn btn-link" href="{{ route('password.request') }}">                   
+        {{ __('Forgot Your Password?') }}</a> @endif  
+                                </div>
+                                <div class="col-sm-5 m-t-20">
+                                    <a href="{{ route('register') }}" class="text-muted"><i class="mdi mdi-account-circle"></i> No tienes cuenta ?</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-@endsection
+             </div>
+          </div>
+         </div>
+    @endsection
