@@ -49,7 +49,7 @@
                 <div class="row align-items-center">
                     <div class="col-sm-7">
                         <h1>Yo lo reservo App</h1>
-                        <h3 class="ts-font-color__black ts-opacity__50" align="center">Una forma diferente y estrategica de vender tus productos</h3>
+                        <h3 class="ts-font-color__black ts-opacity__50" align="center">Una forma diferente y estrategica de vender tus servicios</h3>
                         <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll" data-bg-color="#1b1464">Ver Mas</a>
                     </div>
                     <!--end col-sm-7 col-md-7-->
@@ -94,39 +94,23 @@
                     <!--end ts-title-->
                     <div class="row">
                         <div class="col-sm-6 col-md-4 col-xl-4">
-                            <figure data-animate="ts-fadeInUp">
-                                <figure class="icon mb-5 p-2">
-                                    <img src="{{asset('estiloshome/assets/img/icon-watch-heart.png')}}" alt="">
-                                </figure>
+                                    <img src="{{asset('estiloshome/assets/img/imgreservas.png')}}"  alt="" >
                                 <h4>Variedad</h4>
-                                <p>
-                                    Podras encontrar muchos sectores en los cuales podras gestionar tus 
-                                </p>
-                            </figure>
+                                <p> Podras encontrar muchos sectores en los cuales podras gestionar tus reservas </p>
                         </div>
                         <!--end col-xl-4-->
                         <div class="col-sm-6 col-md-4 col-xl-4">
-                            <figure data-animate="ts-fadeInUp" data-delay="0.1s">
-                                <figure class="icon mb-5 p-2">
-                                    <img src="{{asset('estiloshome/assets/img/ventas11.png')}}"  alt="">
-                                </figure>
+                                    <img src="{{asset('estiloshome/assets/img/imgventas.png')}}"  alt="" data-animate="ts-fadeInUp" data-delay="0.1s">
                                 <h4>Ventas</h4>
                                 <p>
                                     Podras vender desde cualquier lado, prestando servicio a domicilio o en tu oficina
                                 </p>
-                            </figure>
                         </div>
                         <!--end col-xl-4-->
                         <div class="col-sm-6 offset-sm-4 col-md-4 offset-md-0 col-xl-4">
-                            <figure data-animate="ts-fadeInUp" data-delay="0.2s">
-                                <figure class="icon mb-5 p-2">
-                                    <img src="{{asset('estiloshome/assets/img/reservasm11.png')}}"  alt="">
-                                </figure>
+                                    <img src="{{asset('estiloshome/assets/img/reserva1.png')}}"  alt="" data-animate="ts-fadeInUp" data-delay="0.2s" >
                                 <h4>Reservas</h4>
-                                <p>
-                                   Podras reservas tu mesas, sin filas 
-                                </p>
-                            </figure>
+                                <p>Podras reservas tu mesas, sin filas </p>
                         </div>
                         <!--end col-xl-4-->
                     </div>
@@ -165,83 +149,78 @@
                 <!--end container-->
             </section>
             <!--END WHAT IS APPSTORM ********************************************************************************-->
-            <section id="our-clients" class="ts-block text-center">
+           <!-- <section id="our-clients" class="ts-block text-center">
                 <div class="container">
                     <div class="ts-title">
                         <h2>Testimonios</h2>
                     </div>
-                    <!--end ts-title-->
+
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
                             <div class="owl-carousel ts-carousel-blockquote" data-owl-dots="1" data-animate="ts-zoomInShort">
                                 <blockquote class="blockquote">
-                                    <!--person image-->
+                                    
                                     <figure>
                                         <aside>
                                             <i class="fa fa-quote-right"></i>
                                         </aside>
                                         <div class="ts-circle__lg" data-bg-image="{{asset('estiloshome/assets/img/person-05.jpg')}}"></div>
                                     </figure>
-                                    <!--end person image-->
-                                    <!--cite-->
                                     <p>Excelente app.Con ella he agendado más y me di a conocer de una manera facil y practica.</p>
-                                    <!--end cite-->
-                                    <!--person name-->
                                     <footer class="blockquote-footer">
                                         <h4>Mario Muñoz</h4>
                                         <h6>Independiente</h6>
                                     </footer>
-                                    <!--end person name-->
+                                   
                                 </blockquote>
-                                <!--end blockquote-->
+                                
                                 <blockquote class="blockquote">
-                                    <!--person image-->
+                                    
                                     <figure>
                                         <aside>
                                             <i class="fa fa-quote-right"></i>
                                         </aside>
                                         <div class="ts-circle__lg" data-bg-image="{{asset('estiloshome/assets/img/person-05.jpg')}}"></div>
                                     </figure>
-                                    <!--end person image-->
-                                    <!--cite-->
+                                    
+                                    
                                     <p>He generado muchos ingresos y aun sin tener local. He tenido mucho servicio a domicilio</p>
-                                    <!--end cite-->
-                                    <!--person name-->
+                                    
+                                    
                                     <footer class="blockquote-footer">
                                         <h4>Fabian Perez</h4>
                                         <h6>Independiente</h6>
                                     </footer>
-                                    <!--end person name-->
+                                   
                                 </blockquote>
-                                <!--end blockquote-->
+                                
 
                                 <blockquote class="blockquote">
-                                    <!--person image-->
+                                    
                                     <figure>
                                         <aside>
                                             <i class="fa fa-quote-right"></i>
                                         </aside>
                                         <div class="ts-circle__lg" data-bg-image="{{asset('estiloshome/assets/img/person-05.jpg')}}"></div>
                                     </figure>
-                                    <!--end person image-->
-                                    <!--cite-->
+                                    
+                                    
                                     <p>100 % recomendado. Cambio mi negocio en esta era digital y con ella he aumentado mis ventas</p>
-                                    <!--end cite-->
-                                    <!--person name-->
+                                    
+                                    
                                     <footer class="blockquote-footer">
                                         <h4>Eric Pastrana</h4>
                                         <h6>Independiente</h6>
                                     </footer>
-                                    <!--end person name-->
+                                   
                                 </blockquote>
-                                <!--end blockquote-->
+                                
                             </div>
                         </div>
                     </div>
 
                 </div>
-            </section>
-            <!--end #our-clients.ts-block-->
+            </section> -->
 
             <section id="gallery" class="ts-block ts-shape-mask__up" data-bg-color="#f7f7f7" data-bg-image="assets/img/bg-shapes.png" data-bg-size="contain" data-bg-repeat="no-repeat">
                 <div class="ts-title text-center">
@@ -404,7 +383,7 @@
             </section>
             <!--END NUMBERS *****************************************************************************************-->
 
-        </main>
+        </main> -->
         <!--end #content-->
 
         <!--*********************************************************************************************************-->
